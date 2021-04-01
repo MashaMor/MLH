@@ -25,7 +25,8 @@ const elements = {
     "error": "div[role=alert]",
     "errorAge": ".ant-form-item-explain",
     "outside": "#root",
-    "imageThumbnail": ".ant-upload-list-item-thumbnail"
+    "imageThumbnail": ".ant-upload-list-item-thumbnail",
+    "binIcon": ".ant-upload-list-item-actions",
 }
 
 module.exports = elements;
