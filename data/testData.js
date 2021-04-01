@@ -46,4 +46,8 @@ const story = {
     "comedy": 6
 }
 
-module.exports = {name, gender, age, story}
+const imagePath = {
+    "mb2JPG": '../../data/image/2mb-2 2.jpg'
+}
+
+module.exports = {name, gender, age, story, imagePath}

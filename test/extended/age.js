@@ -99,7 +99,7 @@ describe('Age', function () {
             expect(error).toBeDisplayed();
         });
 
-        it('TC-077 age field contains more than 12 digits', function () {
+        it('TC-077 age field cannot contain more than 12 digits', function () {
             $(sel.age).setValue(age.digits13);
             let error = $(sel.error);
             expect(error).toBeDisplayed();

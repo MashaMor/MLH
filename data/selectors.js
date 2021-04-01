@@ -19,10 +19,13 @@ const elements = {
     "storyPH": ".ant-select-selection-placeholder",
     "imageLabel": ".ant-form-item-label",
     "image": "span.ant-upload",
+    "imageUpload": ".ant-upload input",
     "submit": ".ant-btn",
     "tryAgainBtn": ".btn-primary",
     "error": "div[role=alert]",
-    "outside": "#root"
+    "errorAge": ".ant-form-item-explain",
+    "outside": "#root",
+    "imageThumbnail": ".ant-upload-list-item-thumbnail"
 }
 
 module.exports = elements;
