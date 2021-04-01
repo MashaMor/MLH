@@ -75,7 +75,7 @@ describe('My Little Hero', function () { //define suite title by passing a strin
         });
 
         it('TC-011 Story type dropdown is present', function () {
-            let dropdown = $(sel.story).isDisplayed();
+            let dropdown = $(sel.storyType).isDisplayed();
             expect(dropdown).toEqual(true);
         });
 

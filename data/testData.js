@@ -1,5 +1,5 @@
 const name = {
-    "default": "QueenBee",
+    "default": "QueenBee!1",
     "symbol1": "i",
     "symbol70": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
     "symbol71": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890123456789",

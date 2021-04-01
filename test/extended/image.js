@@ -1,6 +1,5 @@
 import sel from '../../data/selectors';
 import exp from '../../data/expected.json';
-import data from '../../data/testData'
 
 describe('Name', function () {
 

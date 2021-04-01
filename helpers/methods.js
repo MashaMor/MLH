@@ -1,5 +1,4 @@
 import sel from "../data/selectors";
-import {story} from "../data/testData";
 
 function inputValues4 (name, gender, age, story){
     $(sel.name).setValue(name);
@@ -54,6 +53,5 @@ function storySwitch (story1, story2) {
     browser.waitUntil(() => $$(sel.storyList)[story2].isDisplayed(), {timeout: 1000});
     $$(sel.storyList)[story2].click();
 }
-
 
 module.exports = {inputValues4, inputGenderAgeStory, radioButtonSwitch, inputNameAgeStory, inputNameGenderStory, inputNameGenderAge, storyTitle, storySwitch};

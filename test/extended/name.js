@@ -1,7 +1,7 @@
 import sel from '../../data/selectors.js';
 import exp from '../../data/expected.json';
 import {name, gender, age, story} from '../../data/testData.js';
-import {inputValues4, inputGenderAgeStory} from '../../helpers/methods.js'
+import {inputValues4, inputGenderAgeStory} from '../../helpers/methods.js';
 
 describe('Name', function () {
 
